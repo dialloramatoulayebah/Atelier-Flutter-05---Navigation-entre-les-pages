@@ -31,7 +31,11 @@ class PageProfil extends StatelessWidget {
                 },
                 child: Text(
                   "Page précédente",
-                  style: TextStyle(color: Colors.green, fontFamily: "Calibri"),
+                  style: TextStyle(
+                    color: Colors.green,
+                    fontFamily: "Calibri",
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
             ],
