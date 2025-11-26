@@ -21,6 +21,15 @@ class PageInfos extends StatelessWidget {
                   fontWeight: FontWeight.bold,
                 ),
               ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pop(context);
+                },
+                child: Text(
+                  "Page précédente",
+                  style: TextStyle(color: Colors.purple, fontFamily: "Calibri"),
+                ),
+              ),
             ],
           ),
         ),
